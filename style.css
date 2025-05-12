@@ -3,10 +3,10 @@ body {
   margin: 0;
   background-color: #F5F5F5;
   color: #333333;
-  padding-bottom: 0; 
+  padding-bottom: 0;
   display: flex;
   flex-direction: column;
-  min-height: 100vh; 
+  min-height: 100vh;
 }
 
 header {
@@ -32,8 +32,8 @@ nav a {
 main {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; 
-  flex-grow: 1; 
+  justify-content: flex-start;
+  flex-grow: 1;
   padding: 20px;
   background-color: #e0e0e0;
 }
@@ -52,7 +52,7 @@ footer {
   position: relative;
   width: 100%;
   box-sizing: border-box;
-  margin-top: auto; 
+  margin-top: auto;
 }
 
 
@@ -65,17 +65,17 @@ footer {
 
 
 .slideshow-container {
-    display: grid;
-    grid-template-columns: 1fr; 
-    gap: 10px;
-    max-width: 100%;
-    margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  max-width: 100%;
+  margin: auto;
 }
 
 .slide img {
-    width: 100%; 
-    height: auto;
-    border-radius: 8px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 
@@ -83,27 +83,28 @@ section {
   margin-bottom: 20px;
 }
 
-#kontakt, #gdpr {
-  margin-top: auto; 
+#kontakt,
+#gdpr {
+  margin-top: auto;
 }
 
 
 @media screen and (max-width: 768px) {
   main {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
   }
 
   .slide img {
-    width: 100%; 
+    width: 100%;
   }
 
   .profilbild {
-    width: 200px; 
+    width: 200px;
     height: 200px;
   }
 
   footer {
-    position: static; 
+    position: static;
   }
 }
 
@@ -113,7 +114,7 @@ section {
   gap: 20px;
 }
 
-.cv-grid > h2 {
+.cv-grid>h2 {
   grid-column: 1 / -1;
 }
 
